@@ -1,0 +1,756 @@
+*{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        max-width: 100%;
+        max-height: 100%;
+        font-family: Arial, sans-serif;
+        box-sizing: border-box;
+}
+
+.section1{
+    position: relative;
+    height: 60px;
+    background-color: #1E3845;
+}
+
+.lang-icon{
+    position: absolute;
+    top: 20px;
+    left: 140px;
+}
+.lang-icon-word{
+    position: absolute;
+    top: 26px;
+    left: 175px;
+}
+.firsta{
+    text-decoration: none;
+    color: #ffffff;
+}
+.firsta:hover{
+    text-decoration: underline;
+    color: white;
+}
+.accessibility-icon{
+    position: absolute;
+    top: 20px;
+    left: 270px;
+}
+.accessibility-icon-word{
+    position: absolute;
+    top: 26px;
+    left: 300px;
+}
+.Search{
+    position: absolute;
+    top: 10px;
+    left: 990px;
+}
+#search{
+    height: 40px;
+    width: 230px;
+    border-radius: 5px;
+    font-size: 17px;
+    padding-left: 15px;
+    outline: none;
+}
+.form-icon{
+    position: absolute;
+    top: 20px;
+    left: 1190px;
+}
+.call{
+    position: absolute;
+    top: 20px;
+    left: 1230px;
+    color: #ffffff;
+    font-size: 18px;
+}
+.number{
+    position: absolute;
+    top: 20px;
+    left: 1295px;
+    text-decoration: underline;
+    color: #e19015;
+    font-size: 18px;
+}
+
+.section2{
+    position: relative;
+    height: 50px;
+    background-color: #3966a8;
+}
+
+.section2-icon{
+    position: absolute;
+    top: 25px;
+    left: 260px;    
+}
+.information{
+    position: absolute;
+    top: 25px;
+    left: 300px;
+    color: white;
+    font-size: 20px;
+}
+.seconda{
+    text-decoration: none;
+    color: white;
+}
+.seconda:hover {
+    color: #e19015;
+    text-decoration: none;
+}
+.section3{
+    position: relative;
+    height: 135px;
+    padding: 0;
+    margin: 0;
+}
+.logo-design{
+    position: absolute;
+    left: 140px;
+    top: 20px;
+}
+.logo{
+    height: 100px;
+    width: 290px;
+}
+.athird{
+    text-decoration: none;
+    color: black;
+}
+.athird:hover{
+    text-decoration: none;
+    color: #3966a8;
+}
+.complaints{
+    position: absolute;
+    top: 60px;
+    left: 550px;
+    font-size: 18px;
+}
+.guides{
+    position: absolute;
+    top: 60px;
+    left: 680px;
+    font-size: 18px;
+}
+.members{
+    position: absolute;
+    top: 60px;
+    left: 780px;
+    font-size: 18px;
+}
+.about{
+    position: absolute;
+    top: 60px;
+    left: 890px;
+    font-size: 18px;
+}
+.reports{
+    position: absolute;
+    top: 60px;
+    left: 1000px;
+    font-size: 18px;
+}
+.news{
+    position: absolute;
+    top: 60px;
+    left: 1100px;
+    font-size: 18px;
+}
+.buttonsection3{
+    position: absolute;
+    top: 47px;
+    left: 1200px;
+    font-size: 18px;
+}
+.button1{
+border-radius: 10px;
+border: 0;
+padding-left: 7px;
+width: 200px;
+height: 40px;
+font-size: 18px;
+background-color: #EFB154;
+}
+.button1:hover{
+    background-color: #e19015;
+}
+.section4{
+    position: relative;
+    background-image: url(./images/Section\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    max-width: 100%;
+}
+.background-words{
+    position: absolute;
+    top: 160px;
+    left: 140px;
+    font-size: 60px;
+    max-width: 700px;
+    color:#1E3845;
+}
+.section4button{
+    position: absolute;
+    top: 500px;
+    left: 140px;
+}
+.button2{
+    border-radius: 10px;
+    border: 0;
+    padding-left: 1px;
+    width: 230px;
+    height: 70px;
+    font-size: 18px;
+    background-color: #EFB154;
+}
+.button2:hover{
+    background-color: #e19015;
+}
+.buttonnav{
+    position: absolute;
+    top: 23px;
+    left: 184px;
+}
+
+.section5{
+    position: relative;
+    height: 800px;
+}
+
+.disputeimage{
+    position: absolute;
+    top: 150px;
+    left: 220px;
+}
+.disputes{
+    position: absolute;
+    top: 400px;
+    left: 165px;
+    max-width: 320px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 32px;
+}
+.problemsimage{
+    position: absolute;
+    top: 150px;
+    left: 630px;
+}
+.problems{
+    position: absolute;
+    top: 400px;
+    left: 590px;
+    max-width: 320px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 32px;
+}
+.freeimage{
+    position: absolute;
+    top: 150px;
+    left: 1050px;
+}
+.free{
+    position: absolute;
+    top: 400px;
+    left: 1010px;
+    max-width: 320px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 32px;
+}
+.section5button{
+    position: absolute;
+    top: 650px;
+    left: 630px;
+}
+.button3{
+    width: 260px;
+    height: 70px;
+    color: white;
+    background-color: #1E3845;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.buttonnav2{
+    position: absolute;
+    top: 673px;
+    left: 846px;
+    color: #ffffff;
+}
+
+.section6{
+    position: relative;
+    height: 800px;
+}
+
+.head1{
+    position: absolute;
+    top: 100px;
+    left: 420px;
+    font-size: 45px;
+}
+.head1words{
+    position: absolute;
+    top: 200px;
+    left: 140px;
+    max-width: 380px;
+    line-height: 30px;
+    font-size: 18px;
+}
+.head1video{
+    position: absolute;
+    top: 200px;
+    left: 550px;
+}
+.head1button{
+    position: absolute;
+    top: 560px;
+    left: 140px;
+}
+.buttonnav3{
+    position: absolute;
+    top: 583px;
+    left: 355px;
+    color: white;
+}
+
+.section7{
+    position: relative;
+    height: 800px;
+}
+
+.process{
+    position: absolute;
+    top: 100px;
+    left: 530px;
+    font-size: 45px;
+}
+.processwords{
+    position: absolute;
+    top: 200px;
+    left: 410px;
+    text-align: center;
+    max-width: 700px;
+    font-size: 20px;
+}
+.imageprocess{
+    position: absolute;
+    top: 300px;
+    left: 120px;
+    width: 1200px;
+}
+.processcontent1{
+    position: absolute;
+    top: 420px;
+    left: 190px;
+    max-width: 250px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.processcontent2{
+    position: absolute;
+    top: 420px;
+    left: 470px;
+    max-width: 250px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.processcontent3{
+    position: absolute;
+    top: 420px;
+    left: 800px;
+    max-width: 250px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.processcontent4{
+    position: absolute;
+    top: 420px;
+    left: 1110px;
+    max-width: 250px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.processbutton{
+    position: absolute;
+    top: 700px;
+    left: 600px;
+}
+.button4{
+    width: 310px;
+    height: 70px;
+    color: white;
+    background-color: #1E3845;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.buttonnav4{
+    position: absolute;
+    top: 723px;
+    left: 868px;
+    color: #ffffff;
+}
+.section8{
+    position: relative;
+    height: 800px;
+    background-color: #efefef;
+}
+.newshead{
+    position: absolute;
+    top: 100px;
+    left: 540px;
+    font-size: 40px;
+}
+.parentdiv{
+    position: relative;
+    top: 180px;
+    left: 140px;
+    background-color: #ffffff;
+    max-width: 390px;
+    height: 560px;
+}
+.firstbutton{
+    position: absolute;
+    top: 35px;
+    left: 34px;  
+}
+.button5{
+    font-size: 14px;
+    background-color: #3966a8;
+    color: #ffffff;
+    max-width: 210px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.button5:hover{
+    background-color: #26436f;
+}
+.date1{
+    position: absolute;
+    top: 100px;
+    left: 34px;
+    font-size: 14px;
+    color: #3966a8;
+}
+a{
+    text-decoration: none;
+    color: #3966a8;
+}
+a:hover{
+    color: #26436f;
+}
+.words1{
+    position: absolute;
+    top: 130px;
+    left: 34px;
+    font-size: 30px;
+    color: #3966a8;
+}
+.buttonnav5{
+    position: absolute;
+    top: 244px;
+    left: 205px;
+    color: #3966a8;
+}
+.word2{
+    position: absolute;
+    top: 290px;
+    left: 34px;
+    font-size: 18px;
+}
+.word3{
+    position: absolute;
+    top: 330px;
+    left: 34px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.read{
+    position: absolute;
+    top: 435px;
+    left: 34px;
+    font-size: 18px;   
+}
+.parentdiv2{
+    position: relative;
+    top: -383px;
+    left: 570px;
+    background-color: #ffffff;
+    max-width: 390px;
+    height: 560px;
+}
+.secondbutton{
+    position: absolute;
+    top: 35px;
+    left: 34px;  
+}
+.button6{
+    font-size: 14px;
+    background-color: #3966a8;
+    color: #ffffff;
+    max-width: 110px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.button6:hover{
+    background-color: #26436f;
+}
+.date2{
+    position: absolute;
+    top: 100px;
+    left: 34px;
+    font-size: 14px;
+    color: #3966a8;
+}
+.div2word1{
+    position: absolute;
+    top: 130px;
+    left: 34px;
+    font-size: 30px;
+    color: #3966a8;
+}
+.div2word2{
+    position: absolute;
+    top: 290px;
+    left: 34px;
+    font-size: 18px;
+}
+.div2word3{
+    position: absolute;
+    top: 330px;
+    left: 34px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.div2word4{
+    position: absolute;
+    top: 465px;
+    left: 34px;
+    font-size: 18px; 
+    padding-right: 10px;
+}
+.parentdiv3{
+    position: relative;
+    top: -943px;
+    left: 1000px;
+    background-color: #ffffff;
+    max-width: 390px;
+    height: 560px;
+}
+.thirdbutton{
+    position: absolute;
+    top: 35px;
+    left: 34px;  
+}
+.button7{
+    font-size: 14px;
+    background-color: #3966a8;
+    color: #ffffff;
+    max-width: 210px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.button7:hover{
+    background-color: #26436f;
+}
+.date3{
+    position: absolute;
+    top: 100px;
+    left: 34px;
+    font-size: 14px;
+    color: #3966a8;
+}
+.div3word1{
+    position: absolute;
+    top: 130px;
+    left: 34px;
+    font-size: 30px;
+    color: #3966a8;
+}
+.div3word2{
+    position: absolute;
+    top: 330px;
+    left: 34px;
+    font-size: 18px;
+}
+.div3word3{
+    position: absolute;
+    top: 380px;
+    left: 34px;
+    font-size: 18px;
+    
+}
+.div3word4{
+    position: absolute;
+    top: 445px;
+    left: 34px;
+    font-size: 18px;
+}
+.div3word5{
+    position: absolute;
+    top: 485px;
+    left: 34px;
+    font-size: 18px; 
+}
+.section9{
+    position: relative;
+    height: 900px;
+    background-color: #1E3845;
+}
+.logo2{
+    position: absolute;
+    top: 100px;
+    left: 140px;
+    color: white;
+    width: 350px;
+    height: 300px;
+}
+.lang-icon2{
+    position: absolute;
+    top: 120px;
+    left: 600px;
+}
+.lang-icon-word2{
+    position: absolute;
+    top: 125px;
+    left: 635px;
+}
+.colored{
+    color: white;
+}
+.colored:hover{
+    color: #e19015;
+}
+.accessibility-icon2{
+    position: absolute;
+    top: 120px;
+    left: 790px;
+}
+.accessibility-icon-word2{
+    position: absolute;
+    top: 125px;
+    left: 820px;
+}
+.coloured2{
+    color: #ffffff;
+}
+.coloured2:hover{
+    color: #e19015;
+}
+.hr1{
+    position: absolute;
+    top: 165px;
+    left: 610px;
+    width: 300px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    height: .9px;
+    border: none;
+}
+.word{
+    position: absolute;
+    top: 230px;
+    left: 620px;
+    width: 300px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #ffffff;
+}
+.aboutus{
+    position: absolute;
+    top: 120px;
+    left: 1000px;
+}
+.aboutus a{
+    color: #ffffff;
+    text-decoration: underline;
+}
+.aboutus a:hover{
+    color: #e19015;
+}
+.media{
+    position: absolute;
+    top: 120px;
+    left: 1130px;
+}
+.media a{
+    color: #ffffff;
+    text-decoration: underline;
+}
+.media a:hover{
+    color: #e19015;
+}
+.linkedin{
+    position: absolute;
+    top: 120px;
+    left: 1350px;
+    font-size: 40px;
+}
+.linkedin a{
+    color: white;
+}
+.linkedin a:hover{
+    background-color: #e19015;
+}
+.facebook{
+    position: absolute;
+    top: 190px;
+    left: 1350px;
+    font-size: 40px;
+}
+.facebook a{
+    color: #ffffff;
+    text-decoration: underline;
+}
+.facebook a:hover{
+    background-color: #e19015;
+}
+.hr2{
+    position: absolute;
+    top: 465px;
+    left: 140px;
+    width: 1250px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    height: .9px;
+    border: none;
+}
+.tele{
+    position: absolute;
+    top: 600px;
+    left: 170px;
+    font-size: 14px;
+    line-height: 30px;
+    max-width: 100%;
+    color: #ffffff;
+}
+.lbutton {
+    position: fixed;
+    top: 600px;
+    left: 1420px;
+}
+
+.button8{
+    border-radius: 10px;
+    width: 100px;
+    height: 60px;
+    color: #ffffff;
+    background-color: #3966a8;
+    outline: 3px solid white;
+}
+.button8:hover{
+    background-color: #26436f;
+}
+.button8 a{
+    color:#ffffff;
+}
